@@ -1,0 +1,167 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- box-icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+ 
+    <title>Chaimae_Aharak</title>
+</head>
+<body>
+    <!-- header designer -->
+    <header class="header">
+       <a href="#" class="logo">Portfolio</a>
+       <i class="bx bx-menu" id="menu-icon"></i>
+       <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Cantact</a>
+       </nav>
+    </header>
+
+     <!-- home section designer -->
+     <section class="home" id="home">
+        <div class="home-content">
+            <h3> Bonjour, c'est moi </h3>
+            <h1> Chaimae Aharak</h1>
+            <h3> et je suis <span class="multiple-text"></span></h3>
+            <p>passionné par la création d'applications web innovantes et performantes.
+             Fort de mon expérience dans le développement front-end et back-end, 
+             je m'efforce de créer des solutions robustes et élégantes qui
+              répondent aux besoins uniques de mes clients.<br>Merci de votre visite ! </p>
+       
+        <div class="social-media">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://www.linkedin.com/in/Chaimae-aharak-102792258"><i class='bx bxl-linkedin'></i></box-icon></a>
+            <a href="https://github.com/ChaimaeX/"><i class='bx bxl-github' ></i></a>
+        </div>
+          <a href="./static/Cv77..pdf" download class="btn">Download Cv
+            <i class="fa fa-download"></i></a>
+        </div>
+        
+     </section>
+    <!-- about section design -->
+      <section class="about" id="about">
+        <!-- <div class="about-img">
+            <img src="Img4.jpg" alt="">
+        </div> -->
+        <div class="about-content">
+            <h2 class="heading"> About <span>Me</span></h2>
+            <h3>Full Stack Developper</h3>
+            <p>Bonjour ! Je suis Chaimae, un passionné de technologie et développeur Full Stack . Mon parcours dans le développement web a
+                débuté il y a plusieurs années, et depuis, je suis tombé amoureux de la création d'applications web élégantes et fonctionnelles.
+                Mon parcours m'a permis d'acquérir une solide expérience dans les technologies front-end telles que HTML, CSS et JavaScript. 
+                Du côté du back-end, je maîtrise des outils comme python, Java pour construire des API robustes et des bases de données efficaces.
+                e suis toujours à la recherche de nouvelles opportunités de collaboration et de projets passionnants. Si vous recherchez un développeur
+                 Full Stack talentueux pour votre prochain projet, n'hésitez pas à me contacter. Je serais ravi de discuter de la façon dont je peux vous aider à réaliser votre vision. 
+                 Merci de visiter mon portfolio !</p>
+                <a href="" class="btn">Read More</a>
+        </div>
+      </section>
+
+      <!-- services section design -->
+      <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+        <div class="services-box">
+          <i class='bx bx-code-alt'></i>
+            <h3>Développement Front-end</h3>
+            <p>Conception et développement de sites web responsives et optimisés pour les mobiles.
+                Utilisation de technologies modernes telles que HTML5, CSS3 et JavaScript pour créer
+                 des interfaces utilisateur dynamiques et engageantes.</p>
+                <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class='bx bx-code-alt'></i>
+            <h3>Développement Back-end</h3>
+            <p>Utilisation de Django, un framework web puissant basé sur Python, pour développer des applications web robustes, sécurisées et évolutives.
+                Expérience dans l'utilisation de Java pour le développement back-end.<br><br></p>
+                <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class='bx bxs-analyse'></i>
+            <h3>Développement Full Stack</h3>
+            <p> 
+                 Mon expertise me permet de concevoir et développer des applications web robustes et dynamiques. Je suis passionné par la création de solutions 
+                 innovantes qui répondent aux besoins uniques de chaque projet.</p>
+                <a href="#" class="btn">Read More</a>
+        </div>
+      </section>
+      <!-- portfolio section design -->
+      <section id="portfolio" class="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+            <img src="./static/img/portfolio1.jpg" alt="">
+            <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, dolorum.</p>
+            <a href="#"><i class='bx bx-link-external' ></i></a>
+           </div>
+          </div>
+          
+          <div class="portfolio-box">
+            <img src="./static/img/portfolio2.jpeg" alt="">
+            <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, dolorum.</p>
+            <a href="#"><i class='bx bx-link-external' ></i></a>
+           </div>
+          </div>
+          <div class="portfolio-box">
+            <img src="./static/img/portfolio3.jpeg" alt="">
+            <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, dolorum.</p>
+            <a href="#"><i class='bx bx-link-external' ></i></a>
+           </div>
+          </div>
+      </section>
+
+      <!-- contact section design -->
+        <section class="contact" id="contact">
+           <h2 class="heading"> Contact <span>Me!</span></h2>
+            <form action="https://formsubmit.co/aharakchaimae1212@gmail.com" method="POST" >
+              <div class="input-box">
+                <input type="text" name="name" required  placeholder="Full name">
+                <input type="email" name="email" required  placeholder="Email Address">
+              </div>
+              <div class="input-box">
+                <input type="text" name="phone" required  placeholder="mobile number">
+                <input type="email" placeholder="Email subject">
+              </div>
+              <textarea name="" id="" name="msg" required  cols="30" rows="10" placeholder="Your minima"></textarea>
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+              <input type="submit" value="Send Message" class="btn">
+            </form>
+        </section>
+        <!-- footer design -->
+        
+        <footer class="footer">
+          <div class="footer-text">
+            <p>Copyright &copy; 2024 by Aharak | All rigths Reserved</p>
+          </div>
+          <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+          </div>
+        </footer>
+
+        <!-- scroll reveal -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        
+        <!-- type js -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- custom js -->
+        <script src="{% static 'about.js'%}"></script>
+</body>
+</html>
